@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+
+        <title>
+            awa
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Gloria+Hallelujah&family=Neonderthaw&family=Noto+Sans+TC&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+
+        <center>
+
+            <div id="myModal" class="modal face">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dimiss="modal">&times;</button>
+                        <h4 class="modal-title">Dibujos :V</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="sketch1.png">
+                        <img src="sketch2.png">
+                    </div>
+                </div>
+            </div>
+
+            <h1>Identificador de dibujos :V
+                <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Mostrar dibujos</button>
+            </h1>
+
+            <p id="label">Etiqueta: </p>
+            <p id="confindence">confindence: </p>
+            <button class="btn btn-danger btn-lg" onclick="clearCanvas()">Borrar el lienzo</button>
+
+        </center>
+
+        <script src="main.js"></script>
+
+    </body>
+    
+</html>

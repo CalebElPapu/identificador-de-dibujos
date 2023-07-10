@@ -1,0 +1,18 @@
+body{
+    font-family: 'Caprasimo', cursive;
+    background-image: url("flopa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas {
+    border: 5px skyblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 160px;
+}
